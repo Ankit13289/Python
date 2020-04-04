@@ -1,8 +1,20 @@
 Prime No.
-a=int(input("Enter any number:"))
+'''a=int(input("Enter any number:"))
 for i in range(2,a):
     if a % i == 0:
 	    print("Not prime")
 	    break
 else:
-    print("Given no. is prime")
+    print("Given no. is prime")'''
+
+'''from math import sqrt
+
+n = int(input('please enter a number: '))
+
+for i in range(2, int(sqrt(n) + 1)):
+
+    if n % i == 0:
+        print('not prime, can be divisible by :', i)
+        break
+else:
+    print('prime number')'''
